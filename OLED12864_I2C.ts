@@ -1,9 +1,11 @@
+// jwc 23-1005-1040
 /**
 * makecode I2C OLED 128x64 Package.
 * From microbit/micropython Chinese community.
 * http://www.micropython.org.cn
 */
-
+// jwc push block below in 'Advanced' since Quest will override
+//% advanced=true
 //% weight=20 color=#0855AA icon="O" block="OLED12864_I2C"
 namespace OLED12864_I2C {
     let font: number[] = [];
